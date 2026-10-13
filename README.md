@@ -47,7 +47,7 @@ En **Ajustes** puedes cambiar el tema, las animaciones, el idioma y las opciones
 
 - PC con Windows de 64 bits y arquitectura x64.
 - Permiso de administrador para ejecutar la limpieza.
-- Desarrollo orientado a Windows 10; Windows 11 está pendiente de validación completa.
+- Desarrollado para Windows, con especial atención a equipos con recursos limitados.
 
 ## Cristian Skylar
 
