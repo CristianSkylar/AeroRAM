@@ -1,0 +1,16 @@
+{
+  "product": "AeroRAM",
+  "version": "0.5.0",
+  "developer": "Cristian Skylar",
+  "official_website": "https://cristianskylar.com",
+  "architecture": "x64",
+  "exe_bytes": 1939968,
+  "sha256": "e477ba481189f69e34f1bc916e4a946efd029bfc4501005c13207e9c8e550c8e",
+  "signature_status": "unsigned",
+  "supported_languages": [
+    "es",
+    "en",
+    "pt",
+    "fr"
+  ]
+}
