@@ -1,0 +1,102 @@
+{
+  "target": "Windows x64; Windows 10 baseline, Windows 11 compatibility expected but unverified",
+  "version": "0.4.3",
+  "product": "AeroRAM",
+  "exe_bytes": 1883136,
+  "sha256": "9a188af206b78826b44183642f2ef6d97842e00842ab9a4e1cc493c9e28813cd",
+  "build": "GCC/MinGW-w64 13, C++17, static runtime, -Wall -Wextra -Wpedantic -Werror",
+  "checks": [
+    "Strict Windows x64 GUI compilation passed",
+    "Administrator and PerMonitorV2 manifests and 0.4.3 version resources present",
+    "Only system DLL imports",
+    "Root executable matches compiled executable",
+    "Approved RAM-and-wings logo and original social SVG bytes embedded",
+    "Developer identity, version and four exact social URLs embedded",
+    "No native accent/blur API in application source or executable",
+    "15 C++/resource source and test files verified without comments; XML/SVG/CMake/CMD verified without comments",
+    "Rounded shape tests passed at 50%, 73%, 100%, 125%, 150%, 175%, 200%, 250% and 300%",
+    "Four-corner transparency, hit testing, anti-alias coverage, shape interior preservation, premultiplied alpha, idempotence, padding and negative stride passed",
+    "AddressSanitizer and UndefinedBehaviorSanitizer passed with leak detection disabled due to environment restrictions",
+    "Memory and diagnostic sources, previous tests and social geometries byte-for-byte unchanged from 0.4",
+    "About description changed to para Windows; new text embedded and former description absent from executable",
+    "Application source differs from 0.4.2 only in body alpha: 255 in both themes",
+    "Reflections, card gradients, animation logic, rounded mask, diagnostics, cleaning and test sources unchanged",
+    "Six design references rendered with fully opaque interiors and transparent rounded-corner cutouts",
+    "Rounded-shape tests inherited from 0.4.1; the existing alpha=255 test case covers opaque surfaces; no new tests for the cosmetic constant change",
+    "Licensing-only repack: all files except LICENSE, README, LEEME, THIRD-PARTY overview and this report verified byte-identical to original 0.4.3 package"
+  ],
+  "imports": [
+    "ADVAPI32.dll",
+    "d3d11.dll",
+    "dwmapi.dll",
+    "dxgi.dll",
+    "GDI32.dll",
+    "gdiplus.dll",
+    "KERNEL32.dll",
+    "msvcrt.dll",
+    "ole32.dll",
+    "OLEAUT32.dll",
+    "SHELL32.dll",
+    "USER32.dll"
+  ],
+  "icon_sizes": [
+    [
+      16,
+      16
+    ],
+    [
+      20,
+      20
+    ],
+    [
+      24,
+      24
+    ],
+    [
+      32,
+      32
+    ],
+    [
+      40,
+      40
+    ],
+    [
+      48,
+      48
+    ],
+    [
+      64,
+      64
+    ],
+    [
+      96,
+      96
+    ],
+    [
+      128,
+      128
+    ],
+    [
+      256,
+      256
+    ]
+  ],
+  "rendering_change": "Opaque body gradient in light and dark themes. Decorative highlights and cards render over an opaque base; desktop content cannot show through the body. Rounded alpha edges, four-corner clipping, no DWM backdrop blur and existing animations retained.",
+  "windows_10_runtime_tested": false,
+  "runtime_limit": "Compiled on Linux. Opaque body alpha and unchanged renderer verified in source; six SVG design references checked for opaque interiors. These previews are not native Windows screenshots. Native Windows rendering and interaction remain untested here.",
+  "preview": "Design references with labeled example data; not native Windows captures.",
+  "windows_11_runtime_tested": false,
+  "compatibility": "No Windows 10-only version gate in application source. Windows 11 x64 is expected to run this Win32 app; it is not certified or runtime-verified here. The x64 executable cannot run on 32-bit Windows.",
+  "license": {
+    "type": "Custom proprietary license: use and redistribution without modifications",
+    "name": "Licencia de AeroRAM: uso y redistribución sin modificaciones",
+    "version": "1.0",
+    "copyright": "2026 Cristian Skylar",
+    "permissions": "Use, execute, inspect source and redistribute original unchanged copies with license, credits and third-party notices; compile unmodified source for personal use.",
+    "restrictions": "No grant to modify owned code, executable, interface or owned materials, or create/distribute derivative or renamed versions without prior written permission.",
+    "third_party": "Original third-party licenses, rights and notices retained; custom restrictions apply only to owned material.",
+    "prior_grants": "Earlier valid licensing grants are not revoked.",
+    "legal_reviewed": false
+  },
+  "packaging_change": "License and related documentation only. Executable, source, build files, assets, tests, version and third-party copyright files remain byte-identical to the previous 0.4.3 ZIP."
+}

@@ -1,0 +1,57 @@
+LICENCIA DE AERORAM: USO Y REDISTRIBUCIÓN SIN MODIFICACIONES
+Versión de la licencia: 1.0
+
+Copyright (c) 2026 Cristian Skylar.
+Todos los derechos reservados, excepto los permisos expresamente concedidos
+en este documento o por la legislación aplicable.
+
+1. Alcance
+
+Esta licencia se aplica únicamente al código y a los demás elementos propios
+de AeroRAM distribuidos expresamente bajo estos términos por Cristian Skylar.
+No es una licencia MIT ni una licencia de código abierto.
+
+2. Uso y redistribución autorizados
+
+Se permite descargar, ejecutar, usar, consultar el código fuente, copiar y
+redistribuir copias originales de AeroRAM sin modificaciones.
+
+Al redistribuirlo, se deben conservar íntegros los archivos compartidos y
+mantener esta licencia, el aviso de copyright, los créditos y los avisos de
+terceros que acompañan al software. La autoría debe seguir identificada como
+Cristian Skylar y no se debe presentar una copia como una creación propia.
+
+Se permite compilar el código fuente sin modificarlo para uso propio.
+Utilizar los ajustes incluidos en el programa y generar o copiar informes
+del sistema forman parte del uso normal autorizado.
+
+3. Modificaciones y versiones derivadas
+
+Esta licencia no concede permiso para modificar el código propio, el
+ejecutable, la interfaz o los demás elementos propios de AeroRAM, ni para
+crear o distribuir versiones derivadas, alteradas o renombradas del programa.
+Para esos usos se requiere autorización previa y por escrito de Cristian
+Skylar. Los derechos no concedidos expresamente quedan reservados.
+
+4. Material y componentes de terceros
+
+Los componentes, bibliotecas, marcas y otros materiales de terceros se rigen
+por sus propias licencias y derechos. Esta licencia no restringe los permisos
+que sus titulares hayan concedido ni sustituye sus avisos.
+Los avisos incluidos en THIRD-PARTY.txt y en third-party deben conservarse
+cuando acompañen a los archivos redistribuidos.
+
+5. Garantías y derechos legales
+
+El software se proporciona tal cual, sin garantías, en la medida permitida
+por la ley. No se garantiza una mejora de rendimiento ni un resultado
+determinado de limpieza de memoria. Ninguna cláusula limita derechos,
+excepciones o responsabilidades que la legislación aplicable haga
+irrenunciables.
+
+6. Copias bajo otras licencias
+
+Estos términos se aplican a las copias distribuidas expresamente con esta
+licencia. No revocan permisos válidamente concedidos mediante licencias
+anteriores ni derechos derivados de los términos de una plataforma en la
+que el titular haya autorizado la publicación del software.
